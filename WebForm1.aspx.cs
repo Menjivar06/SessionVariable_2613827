@@ -28,7 +28,7 @@ namespace SessionVariable_2613827
            Session["bytReorderLevel"] = txtReorderLevel.Text;
 
             // Go to the confirmation page.
-            Response.Redirect("ProductConfirmCookies.aspx");
+            Response.Redirect("ProductConfirmSessionVariables.aspx");
         }
     }
 }
